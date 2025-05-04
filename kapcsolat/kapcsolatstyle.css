@@ -1,0 +1,19 @@
+.kapcsolatcontainer {
+    padding: 32px;
+}
+
+form {
+    padding: 10px;
+    border: 2px #0d6efd solid;
+    border-radius: 16px;
+    background-color: #A8F1FF;
+}
+
+h2 {
+    margin: 0;
+    padding: 10px 0 10px 32px;
+}
+
+.container {
+    padding-bottom: 30px;
+}

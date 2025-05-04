@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desszert</title>
+    <title>Kapcsolat</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="kapcsolatstyle.css">
 </head>
 <body>
     
@@ -32,6 +33,102 @@
         </div>
     </nav>
 
+    <div class="kapcsolatcontainer">
+       <form>
+        <legend>Véleménye fontos számunkra</legend>
+        <div class="input-group mb-3">
+            <span class="input-group-text">Vezeték és Keresztnév</span>
+            <input type="text" aria-label="First name" class="form-control" required>
+            <input type="text" aria-label="Last name" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email cím</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nev@pelda.com" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="validationCustom05" class="form-label">Irányítószám</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="validationCustom03" class="form-label">Város</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="validationCustom04" class="form-label">Megye</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Válasszon...</option>
+              <option>Bács-Kiskun</option>
+              <option>Baranya</option>
+              <option>Békés</option>
+              <option>Borsod-Abaúj-Zemplén</option>
+              <option>Csongrád-Csanád</option>
+              <option>Fejér</option>
+              <option>Győr-Moson-Sopron</option>
+              <option>Hajdú-Bihar</option>
+              <option>Heves</option>
+              <option>Jász-Nagykun-Szolnok</option>
+              <option>Komárom-Esztergom</option>
+              <option>Nógrád</option>
+              <option>Pest</option>
+              <option>Somogy</option>
+              <option>Szabolcs-Szatmár-Bereg</option>
+              <option>Tolna</option>
+              <option>Vas</option>
+              <option>Veszprém</option>
+              <option>Zala</option>
+            </select>
+          </div>
+        
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Ossza meg velünk gondolatait</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Itt ossza meg velünk receptjét, vagy írja meg mit változtatna az oldalon." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Beküldés</button>
+       </form>
+    </div>
+
+    <h2>Köszönjük, hogy segít nekünk, hogy több receptet juttassunk el az ön asztalára</h2>
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../img/sylwia-pietruszka-pyyRuD2-Gck-unsplash.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">Ezt a receptet Zétény olvasónk küldte. Köszönjük neki!</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../img/fernando-andrade-_P76trHTWDE-unsplash.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">Ezt a receptet Zsuzsanna olvasónk küldte. Köszönjük neki!</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div><div class="col">
+            <div class="card shadow-sm">
+            <img src="../img/american-heritage-chocolate-fYLz20AyY1A-unsplash.jpg" alt="">  
+              <div class="card-body">
+                <p class="card-text">Ezt a receptet Bianka olvasónk küldte. Köszönjük neki!</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="kapcsolatjs.js"></script>
 </body>
 </html>
